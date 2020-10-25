@@ -1,10 +1,10 @@
 # github_basics
 ***Basic functionalities using git***
 
-**1. Make a github account**
+**0. Make a github account**
 if you haven't alredy made one, create [here](https://github.com/join).
 
-**2. check you have installed git in your machine**
+**1. check you have installed git in your machine**
 
 open your terminal(mac) and type: 
 ```
@@ -16,17 +16,48 @@ $ sudo apt install git-all
 ```
 if you are using windows, get it from [here](https://gitforwindows.org/).
 
-**3. Introduce yourelf to git**
+**2. Introduce yourelf to git**
 
 Mention your git uername andemail address, it will be used to identify you when you do *git commit*
-Typer the following in your terminal or command prompt.
+
+Type the following in your terminal or command prompt.
 ```
 $ git config --global user.name "YOUR_USERNAME"
 ```
 ```
 $ git config --global user.email "ck_cynergy@mail.com"
 ```
-To check info you just gave.
 ```
-$git config --global --list
+$ git config --global --list //To check info you just gave.
 ```
+**3.  Git**
+
+Create new repositry on GitHub. [here](https://github.com/new)
+now, go to folder where you want to place git using your terminal.
+```
+$ cd Desktop/projects
+```
+There are two ways to use git in projects:
+
+*clone the repository*(simpler way, no hassel)
+copy the repository_URL for the repositry you just created.
+![alt text](link to clonecopy.img)
+
+Use this command to clone the repository.
+```
+$ git clone repository_URL
+```
+
+## OR
+
+*use these commands to create git on any project*
+
+To add a readme file:
+```
+$ touch README.md
+```
+initialise git to the project:
+```
+$ git init
+```
+
