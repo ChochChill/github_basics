@@ -33,7 +33,8 @@ $ git config --global --list //To check info you just gave.
 ## 3. Git
 
 Create new repositry on GitHub. [here](https://github.com/new)
-now, go to folder where you want to place git using your terminal.
+
+now, in your terminal/command prompt go to folder where you want to place project.
 ```
 $ cd Desktop/projects
 ```
@@ -41,7 +42,7 @@ $ cd Desktop/projects
 
 - **_clone the repository_**(simpler way, no hassel)
 
-copy the repository_URL for the repositry you just created.
+copy the Github_repository_URL for the repositry you just created.
 ![alt text](link to clonecopy.img)
 
 Use this command to clone the repository.
@@ -62,3 +63,40 @@ initialise git to the project:
 $ git init
 ```
 
+Now that we are finished with including git, you can continue with your project and 
+
+**_Next part is for commiting_(uploading to github) the changes you have made in your project.**
+  * ### Add files to the staging area for commit.
+    To add all the files the directory(folder):
+    ```
+    $ git add .   
+    ```
+    To add a specific file. For example, readme file:
+    ```
+    $ git add README.md
+    ```
+  * ### Check which files are staged.
+    ```
+    $ git status
+    ```
+  * ### Commit changes you have made to your git repo.
+    "first commit", the message in the below command will be visible to read in the repository. Type useful message to show what changes you have made.    
+    ```
+    $ git commit -m "First commit"
+    ```
+  * ### Uncommit and unadd files.
+    use this command if you want to undo a wrong commit, after this command you will have to start over with adding files to stage.
+    ```
+    $ git reset HEAD
+    ```
+  * ### add remote origin and push.
+    here, we are connecting the repository.
+    ```
+    $ git remote add origin Github_repository_URL
+    ```
+    And here, pushing our code into github.
+    ```
+    $ git push -u origin master
+    ```
+## And now if we go and check our repository page on GitHub
+you will find your code is uploaded into the repository.
