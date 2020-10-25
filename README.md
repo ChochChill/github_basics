@@ -98,5 +98,5 @@ Now that we are finished with including git, you can continue with your project 
     ```
     $ git push -u origin master
     ```
-## And now if we go and check our repository page on GitHub
-you will find your code is uploaded into the repository.
+## And now if you go and check our repository page on GitHub
+you will find your code uploaded into the repository.
