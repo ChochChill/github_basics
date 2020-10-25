@@ -52,7 +52,7 @@ $ git clone repository_URL
 
 ### OR
 
-- **_use these commands to create git on any project_**
+- **_follow these commands to use git on any project_**
 
 To add a readme file:
 ```
