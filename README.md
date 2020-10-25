@@ -30,7 +30,7 @@ $ git config --global user.email "ck_cynergy@mail.com"
 ```
 $ git config --global --list //To check info you just gave.
 ```
-## 3. Git
+## 3. Git initialing
 
 Create new repositry on GitHub. [here](https://github.com/new)
 
@@ -65,9 +65,12 @@ $ git init
 
 Now that we are finished with including git, you can continue with your project and 
 
-**_Next part is for commiting_(uploading to github) the changes you have made in your project.**
+
+**_Next part is for uploading your project to github._**
+
+## 4. Pushing to Github
   * ### Add files to the staging area for commit.
-    To add all the files the directory(folder):
+    To add all the files in the directory(folder):
     ```
     $ git add .   
     ```
@@ -98,5 +101,5 @@ Now that we are finished with including git, you can continue with your project 
     ```
     $ git push -u origin master
     ```
-## And now if you go and check our repository page on GitHub
-you will find your code uploaded into the repository.
+## And now if you go and check your repository on GitHub
+*you will find your code uploaded into the repository.*
