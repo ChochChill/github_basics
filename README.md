@@ -43,7 +43,6 @@ $ cd Desktop/projects
 - **_clone the repository_**(simpler way, no hassel)
 
 copy the Github_repository_URL for the repositry you just created.
-![alt text](link to clonecopy.img)
 
 Use this command to clone the repository.
 ```
